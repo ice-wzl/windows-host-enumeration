@@ -26,7 +26,7 @@
     Write-Output "============================="
     Get-WmiObject -Class win32_networkadapterconfiguration | Where-Object {$_.IPAddress}
 
-    #current pid for script...helps to know when its time to clean logs
+    #current pid for script...helps to know when its time to deal with logs
     Write-Output "Current Process Id: "
     Write-Output "============================="
     $PID

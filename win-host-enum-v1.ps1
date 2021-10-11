@@ -10,7 +10,7 @@
     " 
     Write-Output "Windows Host Enumeration" 
 
-    #start survey
+    #start enumeration
     #date
     Write-Output "Date: "
     Write-Output "============================="

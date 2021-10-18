@@ -53,7 +53,7 @@
     #process list check for virtualization software running --> will only find quemu, vmware, virtualbox
     Get-Process | select ProcessName, Id | findstr /i "vm"
     Get-Process | select ProcessName, Id | findstr /i "virtual"
-    Get-Process | select ProcessName, Id | findstr /i "quemu"
+    Get-Process | select ProcessName, Id | findstr /i "qemu"
     Get-Process | select ProcessName, Id | findstr /i "vbox"
 
     #process list enumeration
